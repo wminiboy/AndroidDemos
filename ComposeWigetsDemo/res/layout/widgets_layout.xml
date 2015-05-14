@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#66aabb"
+    android:gravity="center_vertical" >
+
+    
+        <Button
+            android:id="@+id/bt_commit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="提交" />
+        
+    
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bt_clear"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/bt_commit"
+            android:layout_centerVertical="true"
+             >
+
+            <requestFocus />
+        </EditText>
+
+        
+        <ImageButton
+            android:id="@+id/bt_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/editText1"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:src="@drawable/clear" />
+        
+
+</RelativeLayout>

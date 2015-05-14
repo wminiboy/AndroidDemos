@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="HorizontalScrollView实现Gallery"
+	    android:gravity="center_horizontal"
+    />
+
+    <HorizontalScrollView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:scrollbars="none">
+    	
+    	<com.xmz.activity.MovieLayout
+    		android:id="@+id/movieLayout"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    	/>
+    </HorizontalScrollView>
+    
+    <com.xmz.activity.HorizontalListView
+    		android:id="@+id/horizontalLayout"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"></com.xmz.activity.HorizontalListView>
+    
+</LinearLayout>

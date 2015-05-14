@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <customer name="luopeng"  age="21"  gender="1" emial="dylankeepmoving@163.com"/>
+    <customer name="dylan"  age="22"  gender="2"  emial="710097663@qq.com"/>
+    <customer name="android"  age="6"  gender="2"  emial="android@gmail.com"/>
+</resources>
